@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caso de estudio 1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form>
+        <h1>Registro de usuarios</h1>
+        <h2>completa el siguiente registro </h2>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" name="Nombre"id="nombre"required>
+    
+        <label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required><br>
+
+        <label for="Ocupacion">Ocupacion:</label>
+        <select name="Ocupacion" id="Ocupacion"required>
+        <option value="value">eleguir una opcion</option>
+        <option value="docente">docente</option>
+        <option value="doctor">doctor</option>
+        <option value="enfermero">enfermero</option>
+        <option value="otros">otros</option>
+        </select>
+        <label>Talla de Playeras</label>
+        <input type="radio"id="S"name="talla"value="S"required>
+        <label for="talla_s">S</label>
+      <input type="radio" id="talla_m" name="talla" value="M"required>
+      <label for="talla_m">M</label>
+      <input type="radio" id="talla_l" name="talla" value="L"required>
+      <label for="talla_l">L</label>
+      <input type="radio" id="talla_xl" name="talla" value="xl"required>
+      <label for="talla_xl">XL</label>
+      
+      
+      <label>Preferencias dietéticas:</label>
+      <input type="checkbox" id="vegetariano" name="preferencias[]" value="vegetariano">
+      <label for="vegetariano">Vegetariano</label>
+      <input type="checkbox" id="vegano" name="preferencias[]" value="vegano">
+      <label for="vegano">Vegano</label>
+      <input type="checkbox" id="sin_gluten" name="preferencias[]" value="sin_gluten">
+      <label for="sin_gluten">Sin gluten</label>
+      <input type="checkbox" id="sin_restricciones" name="preferencias[]" value="sin_restricciones">
+      <label for="sin_restricciones">Sin restricciones</label><br><br>
+      
+      <button type="submit">Enviar</button>
+    
+        </form>
+    
+</body>
+</html>
